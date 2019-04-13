@@ -153,4 +153,4 @@ if(cmd === `${prefix}deleter`) {
   
  
        
-      client.login("NTYzMDMyNDU3NjcxMDgxOTk1.XKUpNQ.lJtZoJI4kC7TkKHFukmF8bucn9A")
+      client.login("process.env.TOKEN")
