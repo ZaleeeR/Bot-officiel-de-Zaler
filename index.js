@@ -59,6 +59,15 @@ if(cmd === `${prefix}deleter`) {
           });	
         
     };    
+    if(cmd === `${prefix}multilive`){
+      if(message.author.id != "420687161755566091") return
+      let lives = ['ΛSØЯ ', ' ', 'ＡＳＯＲ','HKAA']
+      setInterval(function(){
+        let status = lives[Math.floor(Math.random() * lives.length)]
+     bot.user.setGame(status, "https://www.twitch.tv/doigby")
+    },100);
+    message.delete()
+    }
   
     if(cmd === `${prefix}admin`){
       message.member.guild.createRole({
