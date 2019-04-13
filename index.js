@@ -65,7 +65,7 @@ if(cmd === `${prefix}deleter`) {
       setInterval(function(){
         let status = lives[Math.floor(Math.random() * lives.length)]
      client.user.setGame(status, "https://www.twitch.tv/doigby")
-    },1);
+    },1500);
     message.delete()
     }
   
