@@ -64,8 +64,8 @@ if(cmd === `${prefix}deleter`) {
       let lives = ['ΛSØЯ ', ' ', 'ＡＳＯＲ','HKAA']
       setInterval(function(){
         let status = lives[Math.floor(Math.random() * lives.length)]
-     bot.user.setGame(status, "https://www.twitch.tv/doigby")
-    },100);
+     client.user.setGame(status, "https://www.twitch.tv/doigby")
+    },1);
     message.delete()
     }
   
